@@ -1,59 +1,59 @@
-# 🚗 Análisis de Anuncios de Venta de Coches
+# 🚗 Car Sales Listings Analysis
 
-Aplicación web interactiva para explorar y visualizar datos de anuncios de venta de vehículos usados en Estados Unidos.
+Interactive web application to explore and visualize data from used vehicle sales listings in the United States.
 
-## Descripción
+## Description
 
-Esta aplicación permite a los usuarios analizar un conjunto de datos de vehículos mediante visualizaciones interactivas. Incluye:
+This application allows users to analyze a vehicle dataset through interactive visualizations. It includes:
 
-- **Histograma de kilometraje:** Muestra la distribución del odómetro de los vehículos anunciados.
-- **Gráfico de dispersión:** Visualiza la relación entre el kilometraje y el precio de los vehículos.
+- **Mileage histogram:** Shows the odometer distribution of listed vehicles.
+- **Scatter plot:** Visualizes the relationship between mileage and vehicle price.
 
-## Tecnologías utilizadas
+## Technologies Used
 
 - **Python 3**
-- **Streamlit** - Framework para crear aplicaciones web de datos
-- **Pandas** - Manipulación y análisis de datos
-- **Plotly Express** - Visualizaciones interactivas
+- **Streamlit** - Framework for building data web applications
+- **Pandas** - Data manipulation and analysis
+- **Plotly Express** - Interactive visualizations
 
-## Cómo ejecutar la aplicación localmente
+## How to Run the Application Locally
 
-1. Clona el repositorio:
+1. Clone the repository:
    ```bash
-   git clone <url-del-repositorio>
+   git clone <repository-url>
    cd 3T_proyecto_s7
    ```
 
-2. Crea y activa un entorno virtual:
+2. Create and activate a virtual environment:
    ```bash
    python -m venv .venv
-   source .venv/bin/activate  # En macOS/Linux
+   source .venv/bin/activate  # On macOS/Linux
    ```
 
-3. Instala las dependencias:
+3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Ejecuta la aplicación:
+4. Run the application:
    ```bash
    streamlit run app.py
    ```
 
-5. Abre tu navegador en `http://localhost:8501`
+5. Open your browser at `http://localhost:8501`
 
-## Estructura del proyecto
+## Project Structure
 
 ```
 3T_proyecto_s7/
-├── app.py              # Aplicación principal de Streamlit
+├── app.py              # Main Streamlit application
 ├── vehicles_us.csv
 ├── notebooks/
-│   └── EDA.ipynb       # Análisis exploratorio de datos
-├── requirements.txt    # Dependencias del proyecto
-└── README.md           # Este archivo
+│   └── EDA.ipynb       # Exploratory data analysis
+├── requirements.txt    # Project dependencies
+└── README.md           # This file
 ```
 
-## URL de la aplicación
+## Application URL
 
 🔗 [https://threet-proyecto-s7.onrender.com](#)
